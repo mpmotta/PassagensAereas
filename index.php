@@ -18,7 +18,9 @@ if ($action !== 'index') {
 }
 
 try {
-    $db = Conexao::getConnection();
+    $conexaoInstancia = new Conexao();
+    $db = $conexaoInstancia->getConnection();
+    
     $vooController = new VooController($db);
     $agendamentoController = new AgendamentoController($db);
 

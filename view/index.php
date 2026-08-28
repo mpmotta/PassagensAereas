@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>SenacTUR - Viagens</title>
+    <title>SPEED - Viagens</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body { font-family: 'Segoe UI', sans-serif; margin: 0; background-color: #f2f2f2; color: #333; }
@@ -40,7 +40,7 @@
 </head>
 <body>
     <header>
-        <h1>SenacTUR</h1>
+        <h1>SPEED - Viagens</h1>
         <nav>
             <button id="btn-nav-reservas" onclick="carregarReservas()"><i class="fa-solid fa-suitcase-rolling"></i> Minhas Reservas</button>
             <button id="btn-nav-home" onclick="mostrarHome()"><i class="fa-solid fa-magnifying-glass"></i> Nova Busca</button>
