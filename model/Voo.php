@@ -9,7 +9,7 @@ class Voo {
         $this->conn = $db; 
     }
 
-    public function obterLocalPorNome($nome) {
+    public function obter_local_por_nome($nome) {
         $stmt = $this->conn->prepare("SELECT * FROM locais WHERE nome = ?");
         $stmt->execute([$nome]);
         return $stmt->fetch(PDO::FETCH_ASSOC);
